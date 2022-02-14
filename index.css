@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #808080;
+  font-weight: 600;
+}
+
+.navbar-container{
+  user-select:none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.logosuz-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li, a{
+  transition: all 0.1s ease 0s; 
+  list-style: none;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #000000;
+}
+
+.navbar-item{
+  text-decoration: none;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+button{
+  cursor: pointer;
+  transition: all 0.1s ease 0s;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 0px;
+  background: rgb(255,86,49);
+  background: linear-gradient(315deg, rgba(255,86,49,1) 10%, rgba(49,156,255,1) 90%);
+}
+
+button:hover{
+  opacity: 70%;
+}
+
+.profile-pic{
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px #808080 solid;
+}
+
+.hr{
+  opacity: 50%;
+}
+
+.h1{
+  user-select:none;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  font-size: 32px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.trend{
+  margin: 40px 20px 20px 20px;
+}
+
+.design-box{
+  cursor: pointer;
+  transition: all 0.1s ease 0s;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #000000;
+  margin: 20px;
+}
+
+.ikon{
+  background: none;
+  width: 80px;
+  height: 80px;
+}
+
+.kalp{
+  margin-right: 5px;
+}
+
+.kalp{
+  align-items: center;
+  position: absolute;
+  opacity: 0%;
+  margin-top: 110px;
+  margin-left: 110px;
+  background: none;
+}
+
+.item1{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px
+}
+
+.item1:hover{
+  opacity: 25%;
+}
+
+.design-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px
+}
+
+.design-div{
+  display:block;
+  align-items: center;
+  margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.pxd{
+  margin-left: 20px;
+}
