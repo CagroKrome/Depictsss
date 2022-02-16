@@ -10,23 +10,27 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
     
-    <nav class="navbar-container">
-        <a class="navbar-item" href="">Depicts.</a>
-        <ul class="logosuz-container">
-            <li class="navbar-item"><a href="">Home</a></li>
-            <li class="navbar-item"><a href="">Upload</a></li>
-            <li class="navbar-item"><a href="">Sign In</a></li>
-            <li class="navbar-item"><a href=""><button>Sign Up</button></a></li>
-            <li class="navbar-item"><a href=""><div class="profile-pic"></div></a></li>
-        </ul>
-    </nav>
+    <div class="fixed-nav">
+        <nav class="navbar-container">
+            <div style="margin-top: 5px">
+                <img class="navbar-item logo" src="Images/logo.png" alt="">
+            </div>
+            <ul class="logosuz-container">
+                <li class="navbar-item"><a href="">Home</a></li>
+                <li class="navbar-item"><a href="">Upload</a></li>
+                <li class="navbar-item"><a href="">Sign In</a></li>
+                <li class="navbar-item"><a href=""><button>Sign Up</button></a></li>
+                <li class="navbar-item"><a href=""><div class="profile-pic"></div></a></li>
+            </ul>
+        </nav>
+        <hr class="hr">
+    </div>
 
     <div class="design-div">
         <h1 class="h1 trend">Trend on Depicts</h1>
-        <p class="pxd">Posts that liked the most.</p>
         <div class="center-design">
             <div class="design-container">
-                <div onmouseleave="hideHeart()" onmouseenter="appearHeart()" class="design-box">
+                <div onclick="likePost()" onmouseleave="hideHeart()" onmouseenter="appearHeart()" class="design-box">
                     <svg id="kalp" class="ikon kalp" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
                       </svg>
@@ -50,8 +54,6 @@
             </div>
         </div>
     </div>
-
-
     
 </body>
 </html>

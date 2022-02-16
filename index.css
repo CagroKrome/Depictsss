@@ -10,12 +10,22 @@
   font-weight: 600;
 }
 
+.fixed-nav{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
 .navbar-container{
   user-select:none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 10px 10px 10px;
+  margin: 5px 10px 10px 10px;
+  padding: 10px 0px 10px 0px; 
+  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .logosuz-container{
@@ -47,8 +57,7 @@ button{
   border-radius: 10px;
   padding: 10px 20px;
   border: 0px;
-  background: rgb(255,86,49);
-  background: linear-gradient(315deg, rgba(255,86,49,1) 10%, rgba(49,156,255,1) 90%);
+  background: linear-gradient(315deg, #ec8a6c, #ed709d);
 }
 
 button:hover{
@@ -69,15 +78,15 @@ button:hover{
 
 .h1{
   user-select:none;
-  text-decoration: underline;
-  text-decoration-color: currentColor;
-  font-size: 32px;
-  color: #000000;
+  font-size: 24px;
+  color: #333333;
   font-weight: 600;
 }
 
 .trend{
-  margin: 40px 20px 20px 20px;
+  margin-top: 120px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .design-box{
@@ -88,15 +97,18 @@ button:hover{
   border-radius: 10px;
   background-color: #000000;
   margin: 20px;
+  box-shadow: 2px 2px 20px rgba(0,0,0, 0.2);
 }
 
 .ikon{
   background: none;
+  color: #ffffff;
   width: 80px;
   height: 80px;
 }
 
 .kalp{
+  transition: all 0.1s ease 0s;
   margin-right: 5px;
 }
 
@@ -110,6 +122,7 @@ button:hover{
 }
 
 .item1{
+  transition: all 0.1s ease 0s;
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -117,7 +130,7 @@ button:hover{
 }
 
 .item1:hover{
-  opacity: 25%;
+  opacity: 50%;
 }
 
 .design-container{
@@ -150,6 +163,7 @@ button:hover{
   background: #555;
 }
 
-.pxd{
-  margin-left: 20px;
+.logo{
+  cursor: pointer;
+  width: 14%;
 }
